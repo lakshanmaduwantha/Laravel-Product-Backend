@@ -1,1 +1,19 @@
 
+[2024-07-23 13:17:58] production.ERROR: rename(C:\Users\LAKSHAN\Documents\Laravel-Product-Backend\bootstrap\cache\ser7270.tmp,C:\Users\LAKSHAN\Documents\Laravel-Product-Backend\bootstrap\cache/services.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\bootstrap\\cache\\ser7270.tmp,C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\bootstrap\\cache/services.php): Access is denied (code: 5) at C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:233)
+[stacktrace]
+#0 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\LAKSHA...', 233)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\LAKSHA...', 233)
+#2 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(233): rename('C:\\\\Users\\\\LAKSHA...', 'C:\\\\Users\\\\LAKSHA...')
+#3 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(191): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\Users\\\\LAKSHA...', '<?php return ar...')
+#4 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(163): Illuminate\\Foundation\\ProviderRepository->writeManifest(Array)
+#5 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#6 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(843): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#7 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(37): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#8 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(316): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(470): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(194): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 C:\\Users\\LAKSHAN\\Documents\\Laravel-Product-Backend\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#13 {main}
+"} 
+[2024-07-23 13:27:22] production.ERROR: Error during registration: No application encryption key has been specified.  
